@@ -1,4 +1,4 @@
-export const frontEndPort = 'https://rudra-app-frontend.onrender.com';
+export const frontEndPort = 'https://rudra-app-frontend-h0cv.onrender.com';
 export const backEndPort = 'https://rudra-app-backend-7geo.onrender.com';
 
 // local config.js
