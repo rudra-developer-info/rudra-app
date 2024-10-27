@@ -485,7 +485,8 @@ const ClientListForm = () => {
                   (manager) =>
                     (manager.manager === "source" ||
                       manager.manager === "relation" ||
-                      manager.manager === "closing") && (
+                      manager.manager === "closing" ||
+                      manager.manager === "site head") && (
                       <option key={manager._id} value={manager.username}>
                         {manager.firstName} {manager.lastName}
                       </option>
@@ -515,7 +516,8 @@ const ClientListForm = () => {
                   (manager) =>
                     (manager.manager === "source" ||
                       manager.manager === "relation" ||
-                      manager.manager === "closing") && (
+                      manager.manager === "closing" ||
+                      manager.manager === "site head") && (
                       <option key={manager._id} value={manager.username}>
                         {manager.firstName} {manager.lastName}
                       </option>
@@ -545,7 +547,8 @@ const ClientListForm = () => {
                   (manager) =>
                     (manager.manager === "source" ||
                       manager.manager === "relation" ||
-                      manager.manager === "closing") && (
+                      manager.manager === "closing" ||
+                      manager.manager === "site head") && (
                       <option key={manager._id} value={manager.username}>
                         {manager.firstName} {manager.lastName}
                       </option>
